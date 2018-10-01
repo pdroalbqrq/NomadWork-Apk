@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.FragmentEdit">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@drawable/fragment_edit"
+        android:orientation="vertical">
+
+        <Spinner
+            android:background="@drawable/spinner_edit_fragment"
+            android:id="@+id/fragSpnWifi"
+            android:layout_width="244dp"
+            android:layout_height="38dp" />
+
+        <Spinner
+            android:background="@drawable/spinner_edit_fragment"
+            android:layout_marginTop="5dp"
+            android:id="@+id/fragSpnEnergy"
+            android:layout_width="244dp"
+            android:layout_height="38dp" />
+
+        <Spinner
+            android:background="@drawable/spinner_edit_fragment"
+            android:layout_marginTop="5dp"
+            android:id="@+id/fragSpnNoise"
+            android:layout_width="244dp"
+            android:layout_height="38dp" />
+
+        <Spinner
+            android:background="@drawable/spinner_edit_fragment"
+            android:layout_marginTop="5dp"
+            android:id="@+id/fragSpnPrice"
+            android:layout_width="244dp"
+            android:layout_height="38dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/button_edit_fragment"
+                android:text="Confirmar"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:background="@drawable/button_edit_fragment"
+                android:text="Deletar"
+                android:textAllCaps="false" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/button_edit_fragment"
+            android:text="Voltar"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</FrameLayout>
